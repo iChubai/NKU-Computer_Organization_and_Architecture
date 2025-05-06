@@ -11,4 +11,5 @@
    ```
    这将启动一个本地服务器，你可以在浏览器中访问 `http://127.0.0.1:8000` 查看文档。
 
-# For more deteils,you can refer to (documentation)[https://deepwiki.com/iChubai/NKU-Computer_Organization_and_Architecture/6-documentation-system]
+# NOTE! 
+For more deteils,you can refer to [documentation](https://deepwiki.com/iChubai/NKU-Computer_Organization_and_Architecture/6-documentation-system)
