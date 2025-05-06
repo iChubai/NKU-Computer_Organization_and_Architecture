@@ -2,9 +2,6 @@
 //
 //	Module Name:	Classic_Booth PP Generator
 //
-//	Date:			2012/12/15
-//
-//	Author:			Joe Wu
 //
 //	Description:	The partial products (PP) generator based on the Classic Booth
 //					algorithm. This module can generate N PPs, each one with (N+1)

@@ -2,9 +2,6 @@
 //
 //	Module Name:	32-bit Square Root Carry Select Adder
 //
-//	Date:			2012/12/15
-//
-//	Author:			Joe Wu
 //
 //	Description:	N-bit Carry Select adder, with P stages. The first stage
 //					has M-bits, then one bit is added at each stage. In this

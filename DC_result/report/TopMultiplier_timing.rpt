@@ -6,7 +6,6 @@ Report : timing
         -max_paths 1
 Design : TopMultiplier
 Version: Z-2007.03
-Date   : Wed Dec 19 19:42:45 2012
 ****************************************
 
 Operating Conditions: TYPICAL   Library: smic13_tt

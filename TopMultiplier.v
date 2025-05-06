@@ -2,10 +2,6 @@
 //
 //	Module Name:	TopMultiplier
 //
-//	Date:			2012/12/18
-//
-//	Author:			Joe Wu
-//
 //	Description:	The Top module of this 16X16 Multipiler.
 //
 ///////////////////////////////////////////////////////////////////////////////

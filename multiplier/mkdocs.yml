@@ -1,0 +1,56 @@
+site_name: 南开大学计算机组成原理小组作业——16位乘法器
+site_description: 基于经典Booth算法、Wallace树和Square Root Carry Select加法器实现的16位乘法器详细文档
+site_author: 侯嘉栋
+# repo_url: https://github.com/wuzeyou/Multiplier16X16
+# repo_name: 南开大学计算机组成原理小组作业——16位乘法器
+copyright: Copyright &copy; 2023
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    primary: indigo
+    accent: indigo
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.arithmatex
+  - footnotes
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mkdocstrings
+
+nav:
+  - 首页: index.md
+  - 设计原理: principles.md
+  - 系统架构: architecture.md
+  - 模块详解:
+    - 模块概览: modules/index.md
+    - 顶层模块: modules/top_multiplier.md
+    - Booth编码模块: modules/booth_classic.md
+    - Wallace树模块: modules/wallace_tree.md
+    - 平方根进位选择加法器: modules/cs_adder.md
+    - 基础计算单元: modules/basic_units.md
+  - 功能验证: verification.md
+  - 性能分析: performance.md
+
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML 

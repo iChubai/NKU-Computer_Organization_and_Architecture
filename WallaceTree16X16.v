@@ -2,10 +2,6 @@
 //
 //	Module Name:	Wallace Tree 16X16
 //
-//	Date:			2012/12/16~18
-//
-//	Author:			Joe Wu
-//
 //	Description:	This module process sixteen 16-bit partial products(PP)
 //					through 6 stages. Finally output two 32-bit operands.
 //
