@@ -1,4 +1,3 @@
-# Start Generation Here
 # 使用 mkdocs 编译这个项目的步骤如下：
 
 1. 确保你已经安装了 Python 和 pip。
@@ -11,3 +10,5 @@
    mkdocs serve
    ```
    这将启动一个本地服务器，你可以在浏览器中访问 `http://127.0.0.1:8000` 查看文档。
+
+# For more deteils,you can refer to (documentation)[https://deepwiki.com/iChubai/NKU-Computer_Organization_and_Architecture/6-documentation-system]
